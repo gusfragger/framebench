@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": "2026-03-27",
+    "questionCount": 112,
+    "categories": ["frame-data", "mechanics", "domain-jargon", "ambiguous-mechanics"],
+    "timestamp": "2026-03-27T18:00:00.000Z",
+    "totalModels": 6
+  },
+  "rankings": [
+    {
+      "model": "claude-sonnet-4-6",
+      "vendor": "Anthropic",
+      "logoKey": "anthropic",
+      "accuracyPct": 84.0,
+      "costPer1MTokens": 3.00,
+      "throughputTPS": 94.2,
+      "categoryScores": {
+        "frame-data": 91.2,
+        "mechanics": 87.5,
+        "domain-jargon": 79.3,
+        "ambiguous-mechanics": 72.1
+      }
+    },
+    {
+      "model": "gpt-4o",
+      "vendor": "OpenAI",
+      "logoKey": "openai",
+      "accuracyPct": 78.6,
+      "costPer1MTokens": 5.00,
+      "throughputTPS": 72.4,
+      "categoryScores": {
+        "frame-data": 85.7,
+        "mechanics": 80.4,
+        "domain-jargon": 73.2,
+        "ambiguous-mechanics": 65.1
+      }
+    },
+    {
+      "model": "gemini-2.0-flash",
+      "vendor": "Google",
+      "logoKey": "google",
+      "accuracyPct": 76.1,
+      "costPer1MTokens": 0.10,
+      "throughputTPS": 118.3,
+      "categoryScores": {
+        "frame-data": 82.1,
+        "mechanics": 78.6,
+        "domain-jargon": 70.5,
+        "ambiguous-mechanics": 63.4
+      }
+    }
+  ]
+}
