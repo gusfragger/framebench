@@ -1,7 +1,11 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'FrameBench — Model Comparison',
+}
+
 export default function ComparisonPage() {
   return (
-    <main>
-      <h1>Comparison</h1>
-    </main>
+    <h1>Model Comparison</h1>
   )
 }

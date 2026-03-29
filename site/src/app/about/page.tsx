@@ -1,7 +1,11 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'FrameBench — About',
+}
+
 export default function AboutPage() {
   return (
-    <main>
-      <h1>About</h1>
-    </main>
+    <h1>About</h1>
   )
 }
